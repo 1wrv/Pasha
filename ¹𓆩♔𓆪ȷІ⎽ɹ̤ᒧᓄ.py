@@ -47,6 +47,7 @@ requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id
 os.system('clear')
 A = f'''tg://openmessage?user_id={ID}'''
 
+token=input(': يوزر حسابك التلجرام')
 os.system('clear')
 pretty.install()
 CON = sol()
